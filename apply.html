@@ -17,15 +17,36 @@
             <li>Send you a link to the enrolment page</li>
             <li>Send you full details of the course</li>
         </ol>
-        <form>
+        
             <form action="https://formsubmit.co/nick.sutton@gbmc.ac.uk" method="POST">
-                <input type="text" name="name" required>
-                <input type="email" name="email" required>
-                <button type="submit">Send</button>
+                <div>
+                    <label for="name">Your name</label>
+                     <input  id="name"  type="text" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <h2>Which languages are you familiar with?</h2>
+                    <input type="checkbox" id = "HTML" name="languages" value="HTML">
+                    <label for="HTML">HTML</label>                   
+                    <input type="checkbox" id = "css" name="languages" value="CSS">
+                    <label for="css">CSS</label>                   
+                    <input type="checkbox" id = "javascript" name="languages" value="JavaScript">
+                    <label for="javascript">JavaScript</label>
+                    <input type="checkbox" id = "PHP" name="languages" value="PHP">
+                    <label for="PHP">PHP</label>
+                    <input type="checkbox" id = "SQL" name="languages" value="SQL">
+                    <label for="SQL">SQL</label>
+                </div>
+                <div>
+                    <button type="submit">Send</button>
+                </div>
         </form>
     </main>
     <footer>
-
+        (C) GBMC
     </footer>
 </body>
 </html>
