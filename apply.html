@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boot camp application form</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header>
@@ -18,16 +19,16 @@
             <li>Send you full details of the course</li>
         </ol>
         
-            <form action="https://formsubmit.co/1d6e18f7a6053fe851f3111b3b0b934e" method="POST">
-                <div>
-                    <label for="name">Your name</label>
+            <form action="https://formsubmit.co/nicholas_sutton@hotmail.com" method="POST">
+                <div class="inputarea">
+                    <label for="name" class="textboxlabel">Your name</label>
                      <input  id="name"  type="text" name="name" required>
                 </div>
-                <div>
-                    <label for="email">Email</label>
+                <div class="inputarea">
+                    <label for="email" class="textboxlabel">Email</label>
                     <input type="email" id="email" name="email" required>
                 </div>
-                <div>
+                <div class="inputarea">
                     <h2>Which languages are you familiar with?</h2>
                     <input type="checkbox" id = "HTML" name="languages" value="HTML">
                     <label for="HTML">HTML</label>                   
@@ -40,7 +41,7 @@
                     <input type="checkbox" id = "SQL" name="languages" value="SQL">
                     <label for="SQL">SQL</label>
                 </div>
-                <div>
+                <div class="inputarea">
                     <button type="submit">Send</button>
                 </div>
         </form>
